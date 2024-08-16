@@ -1,0 +1,158 @@
+.Admin-subscription {
+   padding:0 10px;
+   margin-top: 130px;
+}
+
+.Admin-subscription h2 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+    
+ 
+.Admin-subscription-table-container {
+    height:390px;
+    overflow-y: auto;
+    margin-right: -0.7rem;
+    border: #78798d 2px solid;
+}
+    
+.Admin-subscription-table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+    
+  
+.Admin-subscription-table thead tr {
+    background: #fbfbfb;
+    color: #272848;
+    border: 1px solid #0000001a;
+}
+    
+.Admin-subscription-table thead tr th {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #272848;
+}
+    
+.Admin-subscription-table tbody tr td {
+    color: #272848;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border-bottom: 4px solid #f0f0f5;
+}
+    
+/* Scrollbar styles */
+  
+.Admin-subscription-table-container::-webkit-scrollbar {
+    width: 14px;
+}
+/*not deleted importanted*/ 
+
+/*.appointments-table-container::-webkit-scrollbar-thumb {
+    background-color: #4c835f;
+    opacity: 90%;
+    border-radius: 2px;
+}*/
+
+.Admin-subscription-table .admin-select-container {
+    position: relative;
+    display: inline-block; /*the container wraps around select and icon */
+}
+  
+.Admin-subscription-table  .admin-select-container .admin-status-select {
+    border: 1px solid #78798d;
+    font-weight: 600;
+    padding: 5px 30px 5px 20px;
+    border-radius: 4px;
+    -webkit-appearance: none; /* For Chrome */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; /* For modern browsers */
+    outline: none;
+    width: 150px;
+}
+  
+.Admin-subscription-table  .admin-select-container .arrow-icon {
+    position: absolute;
+    top: 50%;
+    right:10px;
+    transform: translateY(-45%);
+    font-size: 20px;
+    color: #2AA7FF;
+    pointer-events: none; /* Ensure icon does not interfere with select */
+}
+.subcription-submit{
+    
+        background-color: #0067FF;
+        border: 2px solid #14BEF0;
+        border-radius: 4px;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-weight: 500;
+      
+      
+}
+
+.subcription-View{
+    background-color: #0067FF;
+    border: 2px solid #14BEF0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.adminsubscription-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .adminsubscription-modal-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    /* align-items: center; */
+    text-align: center;
+  }
+  
+  .subcription-modal-View{
+    background-color: #0067FF;
+    border: 2px solid #14BEF0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 10px;
+}
+  .adminsubscription-modal-close {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    align-items: center;
+
+  }

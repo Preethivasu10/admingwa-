@@ -1,0 +1,136 @@
+.view-adminblog-container{
+    padding: 0px 20px;
+}
+.view-adminblog-container h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #272848;
+  display: inline-block;
+  padding:20px 10px 0 5px;
+  margin-bottom: 20px;
+}
+.view-adminblog-card-header{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 15px;
+    overflow-y: auto;
+    height:calc(100vh - 170px);
+    padding: 20px;
+}
+.view-adminblog-card-header::-webkit-scrollbar {
+    width: 0px;
+}
+
+.view-adminblog {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.view-adminblog-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-adminblog-head h3 {
+    color: #272848;
+}
+
+.statusadminblog-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.statusadminblog-dot.verified {
+    background-color: green;
+}
+
+.statusadminblog-dot.pending {
+    background-color: orange;
+}
+
+.statusadminblog-dot.not-verified {
+    background-color: red;
+}
+
+.view-adminblog-body {
+    color: #272848;
+    margin-bottom: 20px;
+}
+
+.view-adminblog-body p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272848;
+}
+
+.view-adminblog-card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view-adminblog-select-container {
+    position: relative;
+}
+
+.view-adminblog-status-select {
+    color: #272848;
+    border: 1px solid #78798d;
+    font-size: 14px;
+    font-weight: 600; 
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-appearance: none; /* For Chrome */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; /* For modern browsers */
+    outline: none;
+    width: 150px;
+}
+
+.view-adminblog-select-container .arrow-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-45%);
+    font-size: 20px;
+    color: #0167FF;
+    pointer-events: none; /* Ensure icon does not interfere with select */
+}
+
+.view-adminblog-button{
+    display: flex;
+    gap:20px; 
+}
+
+
+.Update-button-dashmanage {
+    background: #0167FF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.Details-button-dashmanage{
+    border: 1px solid #0163F7;
+    background: none;
+    color: #0163F7;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;    
+}
+
+

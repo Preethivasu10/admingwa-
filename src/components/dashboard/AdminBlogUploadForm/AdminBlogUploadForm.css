@@ -1,0 +1,95 @@
+.admin-form {
+    max-width: 900px; /* Adjusted width for better alignment with the doctor profile style */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.admin-form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.admin-form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2a2a72; /* Match the color to .doctor-label */
+}
+
+.admin-form-input,
+.admin-form-textarea,
+.admin-form-select,
+.admin-form-file,
+.admin-form-number {
+    width: calc(100% - 20px);
+    padding: 14px;
+    margin-top: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    height: auto;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.admin-form-textarea {
+    resize: vertical;
+}
+
+.admin-form-select {
+    height: 50px;
+    overflow-y: auto;
+}
+
+.admin-form-file {
+    padding: 5px;
+}
+
+.admin-form-number {
+    max-width: 100px;
+}
+
+.admin-form-button {
+    width: 20%;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-form-button:hover {
+    background-color: #0056b3;
+}
+
+/* Scrollbar customization */
+.admin-form::-webkit-scrollbar {
+    width: 12px;
+}
+
+.admin-form::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.admin-form::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    border-radius: 10px;
+    border: 3px solid #ecf0f1;
+}
+
+.admin-form::-webkit-scrollbar-thumb:hover {
+    background-color: #7f8c8d;
+}

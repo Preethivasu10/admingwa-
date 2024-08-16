@@ -1,0 +1,56 @@
+.cardContainer {
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for cards */
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    /* max-width: 600px; */
+    width: 90%;
+    transition: transform 0.2s ease-in-out; /* Smooth animation for hover effect */
+}
+
+.cardContainer:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+.cardContent{
+    display: flex;
+    justify-content: space-between;
+}
+.cardContentHeading {
+    color: #2a2a72; /* Attractive color for headings */
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: left; /* Align name to the left */
+}
+
+.cardContentText {
+    color: #555; /* Subtle color for text */
+    margin-bottom: 10px;
+}
+
+.statusVerified {
+    color: #28a745; /* Green color for verified status */
+    font-weight: bold;
+}
+
+.statusUnverified {
+    color: #dc3545; /* Red color for unverified status */
+    font-weight: bold;
+}
+
+.cardButton {
+    background-color: #007bff; /* Primary blue color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px; /* Adjusted padding for a smaller button */
+    cursor: pointer;
+    font-size: 0.9rem; /* Smaller font size */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for hover */
+    /* width: 80px; Reduced width for the button */
+}
+
+.cardButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

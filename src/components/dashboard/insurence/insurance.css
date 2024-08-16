@@ -1,0 +1,164 @@
+/* InsuranceManagement.css */
+.insurance-management {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.insurance-title {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.popup-title {
+    color: #333;
+}
+
+.add-insurance-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 650px; /* Adjusted positioning if needed */
+    margin-bottom: 20px;
+    margin-top: -65px;  /* Adjusted positioning if needed */
+}
+
+.add-insurance-button:hover {
+    background-color: #0056b3;
+}
+
+.insurance-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    overflow-y: auto; /* Enables vertical scrollbar if needed */
+    max-height: 500px; /* Set a max-height for scrolling */
+}
+
+/* Increased size of insurance-item and insurance-logo by 15% */
+.insurance-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 172.5px; /* Increased from 150px to 172.5px (15% increase) */
+}
+
+.insurance-logo {
+    width: 152px;  /* Increased from 80px to 92px (15% increase) */
+    height: 92px; /* Increased from 80px to 92px (15% increase) */
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    
+    background-color: #c82333;
+}
+
+/* Popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-height: 80vh; /* Set a max-height for scrolling */
+    overflow-y: auto; /* Enables vertical scrollbar if needed */
+}
+
+.popup-content h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.popup-content .popup-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.popup-content .popup-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.popup-content .popup-button {
+    width: 40%;
+    padding: 12px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-content .popup-button:last-of-type {
+    margin-top: 10px;
+    background-color: #dc3545;
+}
+
+.popup-content .popup-button:hover {
+    background-color: #0056b3;
+}
+
+.popup-content .popup-button:last-of-type:hover {
+    background-color: #c82333;
+}

@@ -1,0 +1,130 @@
+/* Container Styles */
+.edit-doctor-container {
+    max-width: 900px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+.edit-doctor-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2a2a72;
+}
+
+/* Label Styles */
+.edit-doctor-container label {
+    display: block;
+    font-weight: 500;
+    color: #2a2a72;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Input Group Styles */
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="url"],
+.input-group input[type="date"],
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 14px;
+    padding-right: 50px; /* Add space for the remove button */
+    margin-top: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Remove Button Styles */
+.input-group .remove-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:#ee934a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-group .remove-button:hover {
+    background-color: #ee934a;
+}
+
+/* Add Button Styles */
+.edit-doctor-container .add-icon {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.edit-doctor-container .add-icon:hover {
+    color: #0056b3;
+}
+
+/* Submit Button Styles */
+.edit-doctor-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.edit-doctor-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Dropdown Styles */
+.edit-doctor-container select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Scrollbar Styles */
+.edit-doctor-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.edit-doctor-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.edit-doctor-container::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    border-radius: 10px;
+    border: 3px solid #ecf0f1;
+}
+
+.edit-doctor-container::-webkit-scrollbar-thumb:hover {
+    background-color: #7f8c8d;
+}

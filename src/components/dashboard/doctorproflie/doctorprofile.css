@@ -1,0 +1,120 @@
+/* Overall card containing all doctor profiles */
+.doctor-list-card {
+    width: 92%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#ffffff;
+}
+
+/* Centered title before the profiles */
+.doctor-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Each doctor's individual card */
+.doctor-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Information about the doctor */
+.doctor-info {
+    font-size: 16px;
+}
+
+/* Container for action buttons */
+.doctor-actions {
+    display: flex;
+}
+
+/* Style for both buttons */
+.action-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Same size for both buttons */
+.action-button:first-child {
+    background-color: #4CAF50; /* Edit button color */
+}
+
+.action-button:last-child {
+    background-color:orange; /* Delete button color */
+}
+
+.action-button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .doctor-list-card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .doctor-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .doctor-info {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .doctor-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .action-button {
+        flex-grow: 1;
+        margin-left: 0;
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .doctor-list-card {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .doctor-card {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .doctor-info {
+        font-size: 12px;
+    }
+
+    .action-button {
+        padding: 8px;
+        font-size: 10px;
+    }
+}
